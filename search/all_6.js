@@ -1,9 +1,8 @@
 var searchData=
 [
-  ['get_5fjacobian_56',['get_jacobian',['../class_noether_auto_diff___v___vector.html#a75557edcaaf3f56a3c528d0f404ed7a2',1,'NoetherAutoDiff_V_Vector::get_jacobian()'],['../class_noether_auto_diff___vector.html#a241c30d274d7d915c8a6b06b40f568fd',1,'NoetherAutoDiff_Vector::get_jacobian()']]],
-  ['get_5fkey_5fset_57',['get_key_set',['../class_deriv_calc.html#a67c3a0aa559c93ad51ca0287ac0ffaa3',1,'DerivCalc']]],
-  ['getderivative_58',['getDerivative',['../class_noether_auto_diff.html#a4014f15dc338dd5d67cf7a340057f858',1,'NoetherAutoDiff']]],
-  ['getderivativevaluex_59',['getDerivativeValueX',['../_noether_auto_diff_interface_8cpp.html#a275a6a3dfe0be3665f385cdc71300cb3',1,'NoetherAutoDiffInterface.cpp']]],
-  ['getresultvaluex_60',['getResultValueX',['../_noether_auto_diff_interface_8cpp.html#a69466de3f5d8d20afbb7e46202fd4059',1,'NoetherAutoDiffInterface.cpp']]],
-  ['getvalue_61',['getValue',['../class_noether_auto_diff.html#a1a4a4531772854b84b9c62d2cf48f0d3',1,'NoetherAutoDiff']]]
+  ['initial_5fvalues_43',['initial_values',['../class_parser.html#a3d8e21068a03acbc66bedd5eb9c10ef2',1,'Parser']]],
+  ['inits_44',['inits',['../class_noether_auto_diff.html#a2230514d00b74189418715cc8d3e9a9d',1,'NoetherAutoDiff::inits()'],['../class_noether_auto_diff___v.html#ab3d723acb0161fdefb8c4a8cc812dcb6',1,'NoetherAutoDiff_V::inits()'],['../class_noether_auto_diff___v___vector.html#ad3d5951abc0e3404ae1e247a11dcc1c0',1,'NoetherAutoDiff_V_Vector::inits()'],['../class_noether_auto_diff___vector.html#a67caf6dec56699df247410590a83b74b',1,'NoetherAutoDiff_Vector::inits()']]],
+  ['input_45',['input',['../class_noether_auto_diff.html#a6eb31dbc00176142570b65eff9b06fd0',1,'NoetherAutoDiff::input()'],['../class_noether_auto_diff___vector.html#ab566f8379a98727a1854a98138b67223',1,'NoetherAutoDiff_Vector::input()'],['../class_vector_pre_processor.html#a7583aa8a6dd4364f5ac7e045ccca8064',1,'VectorPreProcessor::input()']]],
+  ['input_5fvector_46',['input_vector',['../class_noether_auto_diff___v.html#a7583cbcf083187007f3872cb1d297f0f',1,'NoetherAutoDiff_V::input_vector()'],['../class_noether_auto_diff___v___vector.html#a0f3ae56a72b6be88fb38a625981741fd',1,'NoetherAutoDiff_V_Vector::input_vector()'],['../class_vector_pre_processor.html#a6b04656c49cd80f649c9ce1a5a6309a3',1,'VectorPreProcessor::input_vector()']]],
+  ['is_5fin_5farray_47',['is_in_array',['../class_parser.html#a70875a8b589ecfac0c5e20847a243599',1,'Parser']]]
 ];

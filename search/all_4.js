@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['eval_45',['eval',['../class_auto_diff_fwd.html#af018252f52dd6a2160a8913095a6df41',1,'AutoDiffFwd::eval()'],['../class_auto_diff_rev.html#a66f43d596e61e7aec95d88860aa82042',1,'AutoDiffRev::eval()']]],
-  ['eval_5fmode_46',['eval_mode',['../_noether_a_d_8h.html#a6d50103ad6f0c6153036eb4de26b4402',1,'NoetherAD.h']]],
-  ['evalstack_47',['evalStack',['../class_auto_diff_base.html#ae81652b3ac91426c82c8f84c3b86a908',1,'AutoDiffBase']]]
+  ['get_5fjacobian_38',['get_jacobian',['../class_noether_auto_diff___v___vector.html#a75557edcaaf3f56a3c528d0f404ed7a2',1,'NoetherAutoDiff_V_Vector::get_jacobian()'],['../class_noether_auto_diff___vector.html#a241c30d274d7d915c8a6b06b40f568fd',1,'NoetherAutoDiff_Vector::get_jacobian()']]],
+  ['get_5fkey_5fset_39',['get_key_set',['../class_deriv_calc.html#a67c3a0aa559c93ad51ca0287ac0ffaa3',1,'DerivCalc']]],
+  ['getderivative_40',['getDerivative',['../class_noether_auto_diff.html#a4014f15dc338dd5d67cf7a340057f858',1,'NoetherAutoDiff']]],
+  ['getvalue_41',['getValue',['../class_noether_auto_diff.html#a1a4a4531772854b84b9c62d2cf48f0d3',1,'NoetherAutoDiff']]]
 ];

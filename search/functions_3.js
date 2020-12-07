@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['eval_213',['eval',['../class_auto_diff_fwd.html#af018252f52dd6a2160a8913095a6df41',1,'AutoDiffFwd::eval()'],['../class_auto_diff_rev.html#a66f43d596e61e7aec95d88860aa82042',1,'AutoDiffRev::eval()']]]
+  ['formula_5fparser_129',['formula_parser',['../class_parser.html#a5d02c0b728d15bc1032071576be5f669',1,'Parser']]]
 ];

@@ -1,9 +1,8 @@
 var searchData=
 [
-  ['r_5fvariables_112',['r_variables',['../class_vector_pre_processor.html#a2f831ad791f14d7995b02d3c4a3fa6e9',1,'VectorPreProcessor']]],
-  ['returntest_113',['returnTest',['../_noether_auto_diff_interface_8cpp.html#a6d22ac84e4e80b8bf20072b227541598',1,'NoetherAutoDiffInterface.cpp']]],
-  ['returntest2_114',['returnTest2',['../_noether_auto_diff_interface_8cpp.html#afe1a30384b1ba862ae3ef24e47e97fe6',1,'NoetherAutoDiffInterface.cpp']]],
-  ['returntest3_115',['returnTest3',['../_noether_auto_diff_interface_8cpp.html#a3a7585e4b308e3edfda2079d20c381fe',1,'NoetherAutoDiffInterface.cpp']]],
-  ['reverse_5f_116',['reverse_',['../_noether_a_d_8h.html#a6d50103ad6f0c6153036eb4de26b4402ab54dd8abcdea3f487d646df67b37444c',1,'NoetherAD.h']]],
-  ['reverse_5fformula_5fparser_117',['reverse_formula_parser',['../class_parser.html#aa0ecaf55806ba20fba29adc821fafec0',1,'Parser']]]
+  ['token_75',['Token',['../class_token.html',1,'Token'],['../class_token.html#a55d347baa617b5319fef79662042f41b',1,'Token::Token(char v, token_type t, int func_tag=0, int precedence=0, double nv=0, std::map&lt; char, double &gt; d={})'],['../class_token.html#ac93f5d71b704a7b19775e62936582852',1,'Token::Token(Token *t, double num_val)'],['../class_token.html#aacf214a647c7986737986e7a58cf242d',1,'Token::Token(Token *t)'],['../class_token.html#aa3c5868ba4115f3189df6b2ac5b36f39',1,'Token::Token()']]],
+  ['token_5flist_76',['token_list',['../class_parser.html#aa502b77f193d7309a5d2e53947204c3a',1,'Parser']]],
+  ['tokenizer_77',['tokenizer',['../class_parser.html#a29441f4fcb626b3ae9f7bd0470e46356',1,'Parser']]],
+  ['tokenvec_78',['tokenVec',['../class_auto_diff_base.html#a0a3e6b0c7f3ae464875be7b80a044fd2',1,'AutoDiffBase']]],
+  ['type_79',['type',['../class_token.html#a0ec3762460d1d56e00bd718d97d368f8',1,'Token']]]
 ];

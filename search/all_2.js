@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['cmakelists_2etxt_11',['CMakeLists.txt',['../_c_make_lists_8txt.html',1,'']]],
-  ['constant_12',['constant',['../_noether_a_d_8h.html#afe5ef662303b6b710ea6ee1a944bad0da995640a12d5339aabee76a933fb5f519',1,'NoetherAD.h']]],
-  ['createnoetherautodiff0_13',['createNoetherAutoDiff0',['../_noether_auto_diff_interface_8cpp.html#a5362533c9e8d8f06502f7b68a36e7235',1,'NoetherAutoDiffInterface.cpp']]],
-  ['createnoetherautodiffx_14',['createNoetherAutoDiffX',['../_noether_auto_diff_interface_8cpp.html#a63c6b707492b197753cb8d71c00b3ca0',1,'NoetherAutoDiffInterface.cpp']]]
+  ['eval_30',['eval',['../class_auto_diff_fwd.html#af018252f52dd6a2160a8913095a6df41',1,'AutoDiffFwd::eval()'],['../class_auto_diff_rev.html#a66f43d596e61e7aec95d88860aa82042',1,'AutoDiffRev::eval()']]],
+  ['evalstack_31',['evalStack',['../class_auto_diff_base.html#ae81652b3ac91426c82c8f84c3b86a908',1,'AutoDiffBase']]]
 ];
