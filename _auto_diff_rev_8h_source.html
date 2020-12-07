@@ -82,17 +82,20 @@ $(function() {
 <div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="class_auto_diff_rev.html">   10</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_auto_diff_rev.html">AutoDiffRev</a>: <span class="keyword">public</span> <a class="code" href="class_auto_diff_base.html">AutoDiffBase</a> {</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="class_auto_diff_rev.html">AutoDiffRev</a>(vector&lt;Token&gt; *toks);</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <a class="code" href="class_token.html">Token</a> eval();</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;};</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#endif //AUTODIFF_AUTODIFFREV_H</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="class_auto_diff_rev.html#af21f60defce70e635e97345a2c89e8c7">   13</a></span>&#160;    <span class="keyword">explicit</span> <a class="code" href="class_auto_diff_rev.html#af21f60defce70e635e97345a2c89e8c7">AutoDiffRev</a>(vector&lt;Token&gt; toks) : <a class="code" href="class_auto_diff_base.html">AutoDiffBase</a>(toks, <a class="code" href="_noether_a_d_8h.html#a6d50103ad6f0c6153036eb4de26b4402ab54dd8abcdea3f487d646df67b37444c">reverse_</a>) {}</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <a class="code" href="class_token.html">Token</a> eval();</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;};</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#endif //AUTODIFF_AUTODIFFREV_H</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <div class="ttc" id="aclass_auto_diff_rev_html"><div class="ttname"><a href="class_auto_diff_rev.html">AutoDiffRev</a></div><div class="ttdef"><b>Definition:</b> AutoDiffRev.h:10</div></div>
-<div class="ttc" id="aclass_auto_diff_base_html"><div class="ttname"><a href="class_auto_diff_base.html">AutoDiffBase</a></div><div class="ttdef"><b>Definition:</b> AutoDiffBase.h:15</div></div>
+<div class="ttc" id="aclass_auto_diff_base_html"><div class="ttname"><a href="class_auto_diff_base.html">AutoDiffBase</a></div><div class="ttdef"><b>Definition:</b> AutoDiffBase.h:12</div></div>
+<div class="ttc" id="aclass_auto_diff_rev_html_af21f60defce70e635e97345a2c89e8c7"><div class="ttname"><a href="class_auto_diff_rev.html#af21f60defce70e635e97345a2c89e8c7">AutoDiffRev::AutoDiffRev</a></div><div class="ttdeci">AutoDiffRev(vector&lt; Token &gt; toks)</div><div class="ttdef"><b>Definition:</b> AutoDiffRev.h:13</div></div>
 <div class="ttc" id="a_deriv_calc_8h_html"><div class="ttname"><a href="_deriv_calc_8h.html">DerivCalc.h</a></div></div>
 <div class="ttc" id="a_auto_diff_base_8h_html"><div class="ttname"><a href="_auto_diff_base_8h.html">AutoDiffBase.h</a></div></div>
-<div class="ttc" id="aclass_token_html"><div class="ttname"><a href="class_token.html">Token</a></div><div class="ttdef"><b>Definition:</b> Token.h:14</div></div>
+<div class="ttc" id="aclass_token_html"><div class="ttname"><a href="class_token.html">Token</a></div><div class="ttdef"><b>Definition:</b> Token.h:8</div></div>
+<div class="ttc" id="a_noether_a_d_8h_html_a6d50103ad6f0c6153036eb4de26b4402ab54dd8abcdea3f487d646df67b37444c"><div class="ttname"><a href="_noether_a_d_8h.html#a6d50103ad6f0c6153036eb4de26b4402ab54dd8abcdea3f487d646df67b37444c">reverse_</a></div><div class="ttdeci">@ reverse_</div><div class="ttdef"><b>Definition:</b> NoetherAD.h:24</div></div>
 <div class="ttc" id="a_parser_8h_html"><div class="ttname"><a href="_parser_8h.html">Parser.h</a></div></div>
 <div class="ttc" id="a_system_includes_8h_html"><div class="ttname"><a href="_system_includes_8h.html">SystemIncludes.h</a></div></div>
 <!-- start footer part -->

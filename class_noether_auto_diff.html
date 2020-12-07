@@ -65,6 +65,8 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="class_noether_auto_diff-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">NoetherAutoDiff Class Reference</div>  </div>
@@ -75,10 +77,16 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a769efbd675408c1b381eaf6e3d0bcefb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_noether_auto_diff.html#a769efbd675408c1b381eaf6e3d0bcefb">NoetherAutoDiff</a> (const char *input, int mode, map&lt; char, double &gt; inits, map&lt; char, double &gt; seeds)</td></tr>
+<tr class="memitem:a769efbd675408c1b381eaf6e3d0bcefb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_noether_auto_diff.html#a769efbd675408c1b381eaf6e3d0bcefb">NoetherAutoDiff</a> (const char *<a class="el" href="class_noether_auto_diff.html#a6eb31dbc00176142570b65eff9b06fd0">input</a>, int <a class="el" href="class_noether_auto_diff.html#ac6280ad8c61df5967d15c1d20f178d86">mode</a>, map&lt; char, double &gt; <a class="el" href="class_noether_auto_diff.html#a2230514d00b74189418715cc8d3e9a9d">inits</a>, map&lt; char, double &gt; <a class="el" href="class_noether_auto_diff.html#aa454ac0337bfc1942482654fab80a884">seeds</a>)</td></tr>
 <tr class="separator:a769efbd675408c1b381eaf6e3d0bcefb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8171bd19fc28ff3a769ce84f45b14d9c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_noether_auto_diff.html#a8171bd19fc28ff3a769ce84f45b14d9c">print</a> ()</td></tr>
 <tr class="separator:a8171bd19fc28ff3a769ce84f45b14d9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adae66f89c297487a4dd27137256298ee"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_noether_auto_diff.html#adae66f89c297487a4dd27137256298ee">helloNoetherAutoDiff</a> ()</td></tr>
+<tr class="separator:adae66f89c297487a4dd27137256298ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a4a4531772854b84b9c62d2cf48f0d3"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_noether_auto_diff.html#a1a4a4531772854b84b9c62d2cf48f0d3">getValue</a> ()</td></tr>
+<tr class="separator:a1a4a4531772854b84b9c62d2cf48f0d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4014f15dc338dd5d67cf7a340057f858"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_noether_auto_diff.html#a4014f15dc338dd5d67cf7a340057f858">getDerivative</a> (char variable)</td></tr>
+<tr class="separator:a4014f15dc338dd5d67cf7a340057f858"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -86,6 +94,38 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a96f6fa0bca65c0baee49b8cbfcea25cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fb38bce171e8687e43517c05ebd3bfa"><td class="memItemLeft" align="right" valign="top">map&lt; char, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_noether_auto_diff.html#a4fb38bce171e8687e43517c05ebd3bfa">deriv</a></td></tr>
 <tr class="separator:a4fb38bce171e8687e43517c05ebd3bfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:ac6280ad8c61df5967d15c1d20f178d86"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_noether_auto_diff.html#ac6280ad8c61df5967d15c1d20f178d86">mode</a></td></tr>
+<tr class="separator:ac6280ad8c61df5967d15c1d20f178d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2230514d00b74189418715cc8d3e9a9d"><td class="memItemLeft" align="right" valign="top">map&lt; char, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_noether_auto_diff.html#a2230514d00b74189418715cc8d3e9a9d">inits</a></td></tr>
+<tr class="separator:a2230514d00b74189418715cc8d3e9a9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa454ac0337bfc1942482654fab80a884"><td class="memItemLeft" align="right" valign="top">map&lt; char, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_noether_auto_diff.html#aa454ac0337bfc1942482654fab80a884">seeds</a></td></tr>
+<tr class="separator:aa454ac0337bfc1942482654fab80a884"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6eb31dbc00176142570b65eff9b06fd0"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_noether_auto_diff.html#a6eb31dbc00176142570b65eff9b06fd0">input</a></td></tr>
+<tr class="separator:a6eb31dbc00176142570b65eff9b06fd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a51e9c05910da3038af14f540185f4ce2"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_noether_auto_diff.html#a51e9c05910da3038af14f540185f4ce2">NoetherAutoDiff_V</a></td></tr>
+<tr class="separator:a51e9c05910da3038af14f540185f4ce2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a077ecba222c05450bd57f1310f68945e"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_noether_auto_diff.html#a077ecba222c05450bd57f1310f68945e">NoetherAutoDiff_Vector</a></td></tr>
+<tr class="separator:a077ecba222c05450bd57f1310f68945e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ef21e8d0273b3f084ee58799467a28e"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_noether_auto_diff.html#a7ef21e8d0273b3f084ee58799467a28e">NoetherAutoDiff_V_Vector</a></td></tr>
+<tr class="separator:a7ef21e8d0273b3f084ee58799467a28e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50d2cbcbf3db99ade5e6f73fa6900143"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_noether_auto_diff.html#a50d2cbcbf3db99ade5e6f73fa6900143">operator==</a> (const <a class="el" href="class_noether_auto_diff.html">NoetherAutoDiff</a> &amp;n1, const <a class="el" href="class_noether_auto_diff.html">NoetherAutoDiff</a> &amp;n2)</td></tr>
+<tr class="separator:a50d2cbcbf3db99ade5e6f73fa6900143"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f1fe6352e7e5a9d12b32e9759301278"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_noether_auto_diff.html#a1f1fe6352e7e5a9d12b32e9759301278">operator!=</a> (const <a class="el" href="class_noether_auto_diff.html">NoetherAutoDiff</a> &amp;n1, const <a class="el" href="class_noether_auto_diff.html">NoetherAutoDiff</a> &amp;n2)</td></tr>
+<tr class="separator:a1f1fe6352e7e5a9d12b32e9759301278"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabca177ed088eaf25c910b4b3d99873c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_noether_auto_diff.html#aabca177ed088eaf25c910b4b3d99873c">operator&lt;=</a> (const <a class="el" href="class_noether_auto_diff.html">NoetherAutoDiff</a> &amp;n1, const <a class="el" href="class_noether_auto_diff.html">NoetherAutoDiff</a> &amp;n2)</td></tr>
+<tr class="separator:aabca177ed088eaf25c910b4b3d99873c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5579d65d040f5f4a7daf5f8672921afa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_noether_auto_diff.html#a5579d65d040f5f4a7daf5f8672921afa">operator&gt;=</a> (const <a class="el" href="class_noether_auto_diff.html">NoetherAutoDiff</a> &amp;n1, const <a class="el" href="class_noether_auto_diff.html">NoetherAutoDiff</a> &amp;n2)</td></tr>
+<tr class="separator:a5579d65d040f5f4a7daf5f8672921afa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe078c964aa35cc5c90d33e04ccf7c2e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_noether_auto_diff.html#abe078c964aa35cc5c90d33e04ccf7c2e">operator&lt;</a> (const <a class="el" href="class_noether_auto_diff.html">NoetherAutoDiff</a> &amp;n1, const <a class="el" href="class_noether_auto_diff.html">NoetherAutoDiff</a> &amp;n2)</td></tr>
+<tr class="separator:abe078c964aa35cc5c90d33e04ccf7c2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5e184ab74a4f12104673fc7ba199801"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_noether_auto_diff.html#aa5e184ab74a4f12104673fc7ba199801">operator&gt;</a> (const <a class="el" href="class_noether_auto_diff.html">NoetherAutoDiff</a> &amp;n1, const <a class="el" href="class_noether_auto_diff.html">NoetherAutoDiff</a> &amp;n2)</td></tr>
+<tr class="separator:aa5e184ab74a4f12104673fc7ba199801"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a769efbd675408c1b381eaf6e3d0bcefb"></a>
@@ -129,6 +169,60 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a4014f15dc338dd5d67cf7a340057f858"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4014f15dc338dd5d67cf7a340057f858">&#9670;&nbsp;</a></span>getDerivative()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double NoetherAutoDiff::getDerivative </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>variable</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1a4a4531772854b84b9c62d2cf48f0d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a4a4531772854b84b9c62d2cf48f0d3">&#9670;&nbsp;</a></span>getValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double NoetherAutoDiff::getValue </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adae66f89c297487a4dd27137256298ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adae66f89c297487a4dd27137256298ee">&#9670;&nbsp;</a></span>helloNoetherAutoDiff()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * NoetherAutoDiff::helloNoetherAutoDiff </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>For testing purposes.</p>
+<dl class="section return"><dt>Returns</dt><dd>char* "Hello NoetherAutoDiff" </dd></dl>
+
+</div>
+</div>
 <a id="a8171bd19fc28ff3a769ce84f45b14d9c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8171bd19fc28ff3a769ce84f45b14d9c">&#9670;&nbsp;</a></span>print()</h2>
 
@@ -146,6 +240,290 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="a51e9c05910da3038af14f540185f4ce2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51e9c05910da3038af14f540185f4ce2">&#9670;&nbsp;</a></span>NoetherAutoDiff_V</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="class_noether_auto_diff___v.html">NoetherAutoDiff_V</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7ef21e8d0273b3f084ee58799467a28e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ef21e8d0273b3f084ee58799467a28e">&#9670;&nbsp;</a></span>NoetherAutoDiff_V_Vector</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="class_noether_auto_diff___v___vector.html">NoetherAutoDiff_V_Vector</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a077ecba222c05450bd57f1310f68945e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a077ecba222c05450bd57f1310f68945e">&#9670;&nbsp;</a></span>NoetherAutoDiff_Vector</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="class_noether_auto_diff___vector.html">NoetherAutoDiff_Vector</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1f1fe6352e7e5a9d12b32e9759301278"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f1fe6352e7e5a9d12b32e9759301278">&#9670;&nbsp;</a></span>operator!=</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator!= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_noether_auto_diff.html">NoetherAutoDiff</a> &amp;&#160;</td>
+          <td class="paramname"><em>n1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_noether_auto_diff.html">NoetherAutoDiff</a> &amp;&#160;</td>
+          <td class="paramname"><em>n2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abe078c964aa35cc5c90d33e04ccf7c2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe078c964aa35cc5c90d33e04ccf7c2e">&#9670;&nbsp;</a></span>operator&lt;</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator&lt; </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_noether_auto_diff.html">NoetherAutoDiff</a> &amp;&#160;</td>
+          <td class="paramname"><em>n1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_noether_auto_diff.html">NoetherAutoDiff</a> &amp;&#160;</td>
+          <td class="paramname"><em>n2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aabca177ed088eaf25c910b4b3d99873c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabca177ed088eaf25c910b4b3d99873c">&#9670;&nbsp;</a></span>operator&lt;=</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator&lt;= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_noether_auto_diff.html">NoetherAutoDiff</a> &amp;&#160;</td>
+          <td class="paramname"><em>n1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_noether_auto_diff.html">NoetherAutoDiff</a> &amp;&#160;</td>
+          <td class="paramname"><em>n2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a50d2cbcbf3db99ade5e6f73fa6900143"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50d2cbcbf3db99ade5e6f73fa6900143">&#9670;&nbsp;</a></span>operator==</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_noether_auto_diff.html">NoetherAutoDiff</a> &amp;&#160;</td>
+          <td class="paramname"><em>n1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_noether_auto_diff.html">NoetherAutoDiff</a> &amp;&#160;</td>
+          <td class="paramname"><em>n2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Operator Overloading </p>
+
+</div>
+</div>
+<a id="aa5e184ab74a4f12104673fc7ba199801"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5e184ab74a4f12104673fc7ba199801">&#9670;&nbsp;</a></span>operator&gt;</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator&gt; </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_noether_auto_diff.html">NoetherAutoDiff</a> &amp;&#160;</td>
+          <td class="paramname"><em>n1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_noether_auto_diff.html">NoetherAutoDiff</a> &amp;&#160;</td>
+          <td class="paramname"><em>n2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5579d65d040f5f4a7daf5f8672921afa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5579d65d040f5f4a7daf5f8672921afa">&#9670;&nbsp;</a></span>operator&gt;=</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator&gt;= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_noether_auto_diff.html">NoetherAutoDiff</a> &amp;&#160;</td>
+          <td class="paramname"><em>n1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_noether_auto_diff.html">NoetherAutoDiff</a> &amp;&#160;</td>
+          <td class="paramname"><em>n2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a4fb38bce171e8687e43517c05ebd3bfa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4fb38bce171e8687e43517c05ebd3bfa">&#9670;&nbsp;</a></span>deriv</h2>
@@ -157,6 +535,94 @@ Public Attributes</h2></td></tr>
           <td class="memname">map&lt;char, double&gt; NoetherAutoDiff::deriv</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2230514d00b74189418715cc8d3e9a9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2230514d00b74189418715cc8d3e9a9d">&#9670;&nbsp;</a></span>inits</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">map&lt;char, double&gt; NoetherAutoDiff::inits</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6eb31dbc00176142570b65eff9b06fd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6eb31dbc00176142570b65eff9b06fd0">&#9670;&nbsp;</a></span>input</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* NoetherAutoDiff::input</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac6280ad8c61df5967d15c1d20f178d86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6280ad8c61df5967d15c1d20f178d86">&#9670;&nbsp;</a></span>mode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int NoetherAutoDiff::mode</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa454ac0337bfc1942482654fab80a884"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa454ac0337bfc1942482654fab80a884">&#9670;&nbsp;</a></span>seeds</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">map&lt;char, double&gt; NoetherAutoDiff::seeds</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
